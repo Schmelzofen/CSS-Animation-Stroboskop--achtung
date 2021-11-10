@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+div{
+    width: 100%;
+}
+
+div:nth-of-type(1){
+    animation-name: first;
+    animation-duration: 2000ms;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+div:nth-of-type(2){
+    animation-name: first;
+    animation-duration: 1000ms;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+div:nth-of-type(3){
+    animation-name: first;
+    animation-duration: 500ms;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+div:nth-of-type(4){
+    animation-name: first;
+    animation-duration: 100ms;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+div:nth-of-type(5){
+    animation-name: first;
+    animation-duration: 50ms;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+@keyframes first{
+    0%{
+        background: black;
+    }
+    100%{
+        background: white;
+    }
+}
+
+@keyframes second{
+    0%{
+        background: black;
+    }
+    100%{
+        background: white;
+    }
+}
